@@ -60,7 +60,7 @@ nav .btn{
     background-color: rgba(25, 25, 25, 0.4);
     border: 1px solid rgba(205, 180, 180, 0.4);
     border-radius: 6px;
-}
+}  
 .btn :nth-child(2){
     background-color: red;
     font-size:medium;
@@ -190,5 +190,3 @@ nav .btn{
     right: 58px;
     width: 418px;
 }
-
-
