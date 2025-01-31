@@ -129,6 +129,8 @@ nav .btn{
 .sepration{
     height: 7px;
     background-color: rgb(70, 70, 70);
+    position: relative;
+    z-index: 11;
 }
 
 @media screen and (max-width:590px){
@@ -189,4 +191,44 @@ nav .btn{
     top: 76px;
     right: 58px;
     width: 418px;
+}
+
+@media only screen and (max-width:957px){
+    .secImg img{
+        width: 322px;
+    }
+    .content :nth-child(1){
+        font-size: 33px;
+    }
+    .content :nth-child(2){
+        font-size: 15px;
+    }
+    
+
+    .secImg video{
+    top: 49px;
+    right: 43px;
+    width: 236px;
+    }
+}
+
+
+@media screen and (max-width: 620px){
+    .first{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+    } 
+
+    .secImg video{
+        top: 176px;
+        right: 57px;
+        }
+
+    .rse{
+        top: 100px;
+    }
+    
 }
