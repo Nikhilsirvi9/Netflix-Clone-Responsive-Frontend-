@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  "Inter", serif;
+}
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url(images/bg.jpg);
+    height: 80vh;
+    background-position: center center;
+    background-size: max(1759px,100vw);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    align-items: center;
+}
+
+nav img{
+    width: 120px;
+    /* color: red; */
+    position:relative;
+    z-index: 10;
+}
+
+nav .btn{
+    display: flex;
+    gap: 0.5rem;
+
+}
+.btn button{
+    padding: 0.5rem 1rem ;
+    color: white;
+    border: none;
+    position: relative;
+    z-index: 10;
+}
+.btn :nth-child(1)
+{
+    background-color: rgba(25, 25, 25, 0.4);
+    border: 1px solid rgba(205, 180, 180, 0.4);
+    border-radius: 6px;
+}
+.btn :nth-child(2){
+    background-color: red;
+    font-size:medium;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 10px 15px 10px 15px;
+}
+
+.hero{
+    position: relative;
+    height:calc(100% - 56.8px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 1rem;
+    padding: 0rem 1.5rem;
+}
+
+.hero>:nth-child(1){
+    font-family: "Inter", serif;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+}
+.hero>:nth-child(2){
+    font-size: 25px;
+    text-align: center;
+}
+.hero>:nth-child(3){
+    font-size: 20px;
+    text-align: center;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+.input input,button{
+    display: flex;
+    gap: 1rem;
+    font-size: larger;
+    padding: 8px 25px;
+    color: white;
+}
+.input button{
+    border-color: none;
+   background-color: red;
+   color: white;
+   font-weight: 600;
+   border: none;
+   border-radius: 5px;
+   word-wrap: initial;
+}
+.input input{
+    background-color: rgba(25, 25, 25, 0.4);
+    border-radius: 0.5rem;
+    font-weight: 700;
+    padding-right: 7rem;
+    font-size: small;
+    border: 1px solid rgba(219, 213, 213, 0.4);
+}
+
+.sepration{
+    height: 7px;
+    background-color: rgb(70, 70, 70);
+}
+
+@media screen and (max-width:590px){
+.input {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}  
+.gbtn{
+    width: max-content;
+    margin-left: 80px;
+}
+
+.hero>:nth-child(1){
+    font-size: 30px;
+}
+.hero>:nth-child(2){
+    font-size: 20px;
+}
+.hero>:nth-child(3){
+    font-size: 20px;
+}
+}
+
+.first{
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.content{
+    color: white;
+    width: 100%;
+    text-wrap: wrap;
+}
+
+.content :nth-child(1){
+    font-size: 50px;
+    font-weight: 600;
+}
+.content :nth-child(2){
+    font-size: 15px;
+}
+
+.secImg img{
+    width: 550px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video{
+    position: absolute;
+    top: 76px;
+    right: 58px;
+    width: 418px;
+}
+
+
